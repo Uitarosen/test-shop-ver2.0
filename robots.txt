@@ -1,0 +1,4 @@
+# 確認用URLのため、検索エンジンによるクロールを禁止しています。
+# 本番公開時は tools/sync-common.py の PREVIEW を False にして再実行してください。
+User-agent: *
+Disallow: /

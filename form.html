@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<!-- @common:head -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>買取フォーム｜August Shop</title>
+<meta name="description" content="August Shop の買取フォーム。お見積り・配送キットはすべて無料。このページだけでお申し込みが完結します。買取専用メール kaitori@august-shop.net">
+<meta name="theme-color" content="#14150f">
+<meta name="format-detection" content="telephone=no">
+<!-- 確認用URLのため検索エンジンには登録させません（本番公開時は PREVIEW=False） -->
+<meta name="robots" content="noindex, nofollow">
+
+<!-- OGP / Twitter -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="August Shop">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="買取フォーム｜August Shop">
+<meta property="og:description" content="August Shop の買取フォーム。お見積り・配送キットはすべて無料。このページだけでお申し込みが完結します。買取専用メール kaitori@august-shop.net">
+<meta property="og:url" content="https://uitarosen.github.io/test-shop-ver2.0/form.html">
+<meta property="og:image" content="https://uitarosen.github.io/test-shop-ver2.0/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Icons -->
+<link rel="icon" href="assets/icon/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon/apple-touch-icon.png">
+
+<!-- Webフォントはローカル同梱（assets/fonts）。CDN配信に戻す方法は README.md を参照 -->
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- JS有効時のみのスタイル切り替え -->
+<script>document.documentElement.classList.remove('no-js');</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ホーム",
+      "item": "https://uitarosen.github.io/test-shop-ver2.0/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "買取フォーム",
+      "item": "https://uitarosen.github.io/test-shop-ver2.0/form.html"
+    }
+  ]
+}
+</script>
+</head>
+<!-- /@common:head -->
+<body data-page="form.html">
+
+<!-- @common:chrome -->
+<a href="#top" class="skiplink">本文へスキップ</a>
+
+<div class="topbar">
+  <a href="index.html#campaign" class="topbar__inner">
+    <span class="topbar__tag">CAMPAIGN</span>
+    <span class="topbar__text">＼ ただいま 買取金額 <b>15%UP</b> クーポン配布中 ／ 宅配買取・LINE査定が対象です</span>
+    <span class="topbar__arrow" aria-hidden="true">→</span>
+  </a>
+</div>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="index.html" class="logo" aria-label="August Shop ホーム">
+      <span class="logo__mark" aria-hidden="true"></span>
+      <span class="logo__text">
+        <span class="logo__name">August Shop</span>
+        <span class="logo__sub">BUY &amp; SELL — ATSUGI</span>
+      </span>
+    </a>
+
+    <nav class="gnav" aria-label="メインナビゲーション">
+      <a href="buy.html"><span>Buy</span><em>買取について</em></a>
+      <a href="form.html" class="is-current" aria-current="page"><span>Form</span><em>買取フォーム</em></a>
+      <a href="about.html"><span>About</span><em>店舗紹介</em></a>
+      <a href="shop.html"><span>Shop</span><em>販売について</em></a>
+      <a href="restore.html"><span>Restore</span><em>リペア・お直し</em></a>
+      <a href="instagram.html"><span>Instagram</span><em>インスタグラム</em></a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="form.html" class="btn btn--dark btn--sm"><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 3.8h9.2L19 8.6V20.2H5z"/><path d="M14 3.8v5h5"/><path d="M8.2 12.6h7.6M8.2 16h5"/></svg></span>買取フォーム</a>
+      <a href="#line" class="btn btn--line btn--sm"><span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 5.66 2 10.16c0 4.03 3.57 7.4 8.39 8.04.33.07.77.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.5 22 11.9 22 10.16 22 5.66 17.5 2 12 2ZM7.5 12.9H5.62a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 1 0v3.3H7.5a.5.5 0 0 1 0 1Zm2.05-.5a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 1 0v3.8Zm4.2 0a.5.5 0 0 1-.9.3l-1.93-2.62v2.32a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 .9-.3l1.93 2.63V8.6a.5.5 0 0 1 1 0v3.8Zm3.13-2.4a.5.5 0 0 1 0 1h-1.38v.9h1.38a.5.5 0 0 1 0 1h-1.88a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 .5-.5h1.88a.5.5 0 0 1 0 1h-1.38v.9h1.38Z"/></svg></span>LINE査定</a>
+      <button class="burger" id="burger" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav class="drawer__nav" aria-label="メニュー">
+      <a href="buy.html"><span class="en">Buy</span><span class="jp">買取について</span></a>
+      <a href="form.html" aria-current="page"><span class="en">Form</span><span class="jp">買取フォーム</span></a>
+      <a href="about.html"><span class="en">About</span><span class="jp">店舗紹介</span></a>
+      <a href="shop.html"><span class="en">Shop</span><span class="jp">販売について</span></a>
+      <a href="restore.html"><span class="en">Restore</span><span class="jp">リペア・お直し</span></a>
+      <a href="instagram.html"><span class="en">Instagram</span><span class="jp">インスタグラム</span></a>
+  </nav>
+  <div class="drawer__foot">
+    <div class="drawer__btns">
+      <a href="#line" class="btn btn--line btn--block"><span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 5.66 2 10.16c0 4.03 3.57 7.4 8.39 8.04.33.07.77.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.5 22 11.9 22 10.16 22 5.66 17.5 2 12 2ZM7.5 12.9H5.62a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 1 0v3.3H7.5a.5.5 0 0 1 0 1Zm2.05-.5a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 1 0v3.8Zm4.2 0a.5.5 0 0 1-.9.3l-1.93-2.62v2.32a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 .9-.3l1.93 2.63V8.6a.5.5 0 0 1 1 0v3.8Zm3.13-2.4a.5.5 0 0 1 0 1h-1.38v.9h1.38a.5.5 0 0 1 0 1h-1.88a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 .5-.5h1.88a.5.5 0 0 1 0 1h-1.38v.9h1.38Z"/></svg></span>LINEで査定する</a>
+      <a href="form.html" class="btn btn--outline btn--block"><span class="btn__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 3.8h9.2L19 8.6V20.2H5z"/><path d="M14 3.8v5h5"/><path d="M8.2 12.6h7.6M8.2 16h5"/></svg></span>買取フォームで見積り</a>
+    </div>
+    <p class="drawer__note">
+      TEL <a href="tel:046-259-6189">046-259-6189</a>／営業 13:00〜19:00（定休日：水曜・木曜）
+    </p>
+  </div>
+</div>
+<!-- /@common:chrome -->
+
+<main id="top">
+
+
+  <section class="page-hero">
+    <div class="container">
+      <nav class="crumb" aria-label="パンくずリスト"><a href="index.html">HOME</a><span>買取フォーム</span></nav>
+      <p class="page-hero__en">Form</p>
+      <h1 class="page-hero__jp">買取フォーム</h1>
+      <p class="page-hero__lead">
+        お見積り、配送キットはすべて無料です。このページだけでお申し込みが完結します。<br>
+        内容を確認のうえ、担当より概算のお見積りをご連絡いたします。
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="formgrid">
+
+        <!-- ---------- FORM ---------- -->
+        <div>
+          <div class="formdone" id="formdone" hidden>
+            <h3>お申し込みありがとうございます</h3>
+            <p>
+              内容を確認のうえ、担当より概算のお見積りをご連絡いたします。<br>
+              しばらく経っても返信がない場合は、お手数ですが LINE またはお電話でご連絡ください。
+            </p>
+          </div>
+
+          <!-- TODO(公開前): data-endpoint に送信先URL（Formspree / Google Apps Script 等）を設定してください。
+                 空のままだと送信ボタンは「LINE・メールでの連絡」を案内します。詳細は README.md -->
+          <form id="buyform" data-endpoint="" method="post" enctype="multipart/form-data" novalidate>
+            <div class="split-head"><h3>お客様情報</h3></div>
+
+            <div class="field__row">
+              <div class="field">
+                <label class="field__label" for="name">お名前 <span class="req">必須</span></label>
+                <input type="text" id="name" name="name" required autocomplete="name" placeholder="八月 太郎">
+              </div>
+              <div class="field">
+                <label class="field__label" for="kana">フリガナ <span class="req">必須</span></label>
+                <input type="text" id="kana" name="kana" required placeholder="ハチガツ タロウ">
+              </div>
+            </div>
+
+            <div class="field__row">
+              <div class="field">
+                <label class="field__label" for="email">メールアドレス <span class="req">必須</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@mail.com">
+              </div>
+              <div class="field">
+                <label class="field__label" for="tel">電話番号 <span class="req">必須</span></label>
+                <input type="tel" id="tel" name="tel" required autocomplete="tel" placeholder="090-0000-0000">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="zip">郵便番号 <span class="opt">任意</span></label>
+              <input type="text" id="zip" name="zip" autocomplete="postal-code" placeholder="243-0032" style="max-width:220px">
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="address">ご住所 <span class="opt">任意</span></label>
+              <input type="text" id="address" name="address" autocomplete="street-address" placeholder="神奈川県厚木市…">
+              <p class="field__note">配送キットをご希望の場合はご入力ください。</p>
+            </div>
+
+            <div class="split-head mt-l"><h3>買取のご希望</h3></div>
+
+            <div class="field">
+              <span class="field__label">買取方法 <span class="req">必須</span></span>
+              <div class="choices">
+                <label class="choice">
+                  <input type="radio" name="method" value="宅配買取" checked required>
+                  <span>宅配買取<small>送って査定</small></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="method" value="LINE査定">
+                  <span>LINE査定<small>写真を送るだけ</small></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="method" value="対面買取">
+                  <span>対面買取<small>ご来店</small></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <span class="field__label">配送キット <span class="opt">任意</span></span>
+              <div class="choices" style="grid-template-columns:1fr 1fr">
+                <label class="choice">
+                  <input type="radio" name="kit" value="希望する" checked>
+                  <span>希望する<small>無料でお届け</small></span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="kit" value="希望しない">
+                  <span>希望しない<small>着払いで発送</small></span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field__row">
+              <div class="field">
+                <label class="field__label" for="count">おおよその点数 <span class="req">必須</span></label>
+                <select id="count" name="count" required>
+                  <option value="1〜3点">1〜3点</option>
+                  <option value="4〜9点">4〜9点</option>
+                  <option value="10〜19点">10〜19点</option>
+                  <option value="20点以上">20点以上</option>
+                </select>
+              </div>
+              <div class="field">
+                <label class="field__label" for="coupon">クーポンコード <span class="opt">任意</span></label>
+                <input type="text" id="coupon" name="coupon" placeholder="AUG15">
+                <p class="field__note">キャンペーンのコードをお持ちの方はご入力ください。</p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="brands">ブランド名・アイテム <span class="req">必須</span></label>
+              <textarea id="brands" name="brands" required placeholder="例）
+・Levi's 501 デニムパンツ（66前期・W32）
+・Patagonia レトロX フリース（90s・M）
+・シルバーアクセサリー 数点"></textarea>
+              <p class="field__note">ブランドリストにないブランドでも、まずはご相談ください。</p>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="condition">状態・気になる点 <span class="opt">任意</span></label>
+              <textarea id="condition" name="condition" placeholder="キズ・汚れ・リペア跡、付属品の有無などをご記入ください。" style="min-height:100px"></textarea>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="photos">お写真の添付 <span class="opt">任意</span></label>
+              <input type="file" id="photos" name="photos" multiple accept="image/*">
+              <p class="field__note">①アイテム全体 ②ブランドタグ／品質表示 ③付属品 の3点があると査定精度が上がります。</p>
+            </div>
+
+            <div class="field">
+              <label class="agree">
+                <input type="checkbox" name="agree" required>
+                <span>プライバシーポリシーおよび買取に関する注意事項（査定の有効期限は1週間、買取できないものの条件）に同意します。</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn--dark btn--lg" style="width:100%">この内容で見積りを依頼する</button>
+            <p class="field__note center mt-m">
+              うまく送信できない場合は、買取専用メール <b>kaitori@august-shop.net</b> までご連絡ください。
+            </p>
+          </form>
+        </div>
+
+        <!-- ---------- SIDE ---------- -->
+        <aside class="formside">
+          <div>
+            <h3>すべて無料です</h3>
+            <ul class="formside__list mt-m">
+              <li>お見積り・査定料</li>
+              <li>配送キットのお届け</li>
+              <li>キャンセル時の返送料</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>お申し込み後の流れ</h3>
+            <ol class="numlist" style="margin-top:1em">
+              <li>担当より概算のお見積りをご連絡</li>
+              <li>着払い発送、または配送キットで発送</li>
+              <li>現品確認後、確定金額をご連絡</li>
+              <li>成立後3営業日以内にお振込</li>
+            </ol>
+          </div>
+
+          <div class="notice notice--accent" style="padding:18px 20px">
+            <p class="notice__head" style="font-size:12.5px">査定の有効期限は1週間</p>
+            <p class="notice__body" style="font-size:12px">対面買取・宅配買取・LINE査定のいずれにも適用されます。</p>
+          </div>
+
+          <div class="notice notice--alert" style="padding:18px 20px">
+            <p class="notice__head" style="font-size:12.5px">買取できないもの</p>
+            <ul class="notice__body" style="font-size:12px">
+              <li>明らかな処分目的のもの</li>
+              <li>取り扱いのないブランド・アイテム</li>
+              <li>著しい状態不良のもの</li>
+            </ul>
+          </div>
+
+          <a href="#line" class="btn btn--line btn--block">LINEで相談する</a>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- @common:foot -->
+
+<section class="linecta" id="line">
+  <div class="container">
+    <div class="linecta__inner">
+      <div class="linecta__body">
+        <p class="eyebrow eyebrow--light">LINE Assessment</p>
+        <h2 class="linecta__title">写真を送るだけ。<br>24時間以内に概算査定をお返しします。</h2>
+        <p class="linecta__text">
+          友だち追加のうえ、①アイテム全体 ②ブランドタグ／品質表示 ③付属品 のお写真をお送りください。<br>
+          ご相談・査定・キャンセルはすべて無料です。
+        </p>
+        <div class="linecta__actions">
+          <a href="https://line.me/R/ti/p/%40776yyqfq" class="btn btn--line btn--lg" target="_blank" rel="noopener"><span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 5.66 2 10.16c0 4.03 3.57 7.4 8.39 8.04.33.07.77.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.5 22 11.9 22 10.16 22 5.66 17.5 2 12 2ZM7.5 12.9H5.62a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 1 0v3.3H7.5a.5.5 0 0 1 0 1Zm2.05-.5a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 1 0v3.8Zm4.2 0a.5.5 0 0 1-.9.3l-1.93-2.62v2.32a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 .9-.3l1.93 2.63V8.6a.5.5 0 0 1 1 0v3.8Zm3.13-2.4a.5.5 0 0 1 0 1h-1.38v.9h1.38a.5.5 0 0 1 0 1h-1.88a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 .5-.5h1.88a.5.5 0 0 1 0 1h-1.38v.9h1.38Z"/></svg></span>友だち追加して査定する</a>
+          <a href="form.html" class="btn btn--outline btn--lg">フォームで見積りを依頼</a>
+        </div>
+        <p class="linecta__meta">LINE ID：<b>@776yyqfq</b>　／　買取専用メール：<b>kaitori@august-shop.net</b></p>
+      </div>
+      <div class="linecta__qr">
+        <div class="qr">
+          <div class="qr__frame">
+            <img src="assets/icon/line-qr.png" alt="August Shop 公式LINEの友だち追加用QRコード" width="150" height="150" loading="lazy" decoding="async">
+          </div>
+          <p>友だち追加</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="logo__name logo__name--lg">August Shop</span>
+        <p class="footer__tagline">
+          アメカジ・ブランド古着からアーカイブ、本格ヴィンテージまで。<br>
+          長く愛せる一着に出会える場所を目指しています。
+        </p>
+        <dl class="footer__info">
+          <div><dt>営業時間</dt><dd>13:00〜19:00</dd></div>
+          <div><dt>定休日</dt><dd>水曜・木曜</dd></div>
+          <div><dt>TEL</dt><dd><a href="tel:046-259-6189">046-259-6189</a></dd></div>
+          <div><dt>住所</dt><dd>〒243-0032　神奈川県厚木市恩名1-20-27　プチヒルズ4F</dd></div>
+        </dl>
+        <div class="footer__sns">
+          <a href="https://www.instagram.com/august_shop/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+          <a href="https://line.me/R/ti/p/%40776yyqfq" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 5.66 2 10.16c0 4.03 3.57 7.4 8.39 8.04.33.07.77.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.5 22 11.9 22 10.16 22 5.66 17.5 2 12 2ZM7.5 12.9H5.62a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 1 0v3.3H7.5a.5.5 0 0 1 0 1Zm2.05-.5a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 1 0v3.8Zm4.2 0a.5.5 0 0 1-.9.3l-1.93-2.62v2.32a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 .9-.3l1.93 2.63V8.6a.5.5 0 0 1 1 0v3.8Zm3.13-2.4a.5.5 0 0 1 0 1h-1.38v.9h1.38a.5.5 0 0 1 0 1h-1.88a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 .5-.5h1.88a.5.5 0 0 1 0 1h-1.38v.9h1.38Z"/></svg>LINE</a>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <div>
+          <p class="footer__navhead">Buy</p>
+          <a href="buy.html">買取について</a>
+          <a href="buy.html#methods">買取方法（対面／宅配／LINE）</a>
+          <a href="buy.html#ng">買取できないもの</a>
+          <a href="buy.html#results">買取実績</a>
+          <a href="buy.html#brands">取り扱いブランド</a>
+          <a href="form.html">買取フォーム</a>
+        </div>
+        <div>
+          <p class="footer__navhead">Shop</p>
+          <a href="about.html">店舗紹介</a>
+          <a href="shop.html">販売について</a>
+          <a href="shop.html#access">アクセス</a>
+          <a href="shop.html#payment">決済方法</a>
+          <a href="restore.html">リペア・お直し</a>
+          <a href="instagram.html">インスタグラム</a>
+        </div>
+        <div>
+          <p class="footer__navhead">Information</p>
+          <a href="about.html#company">会社概要</a>
+          <a href="index.html#campaign">キャンペーン・クーポン</a>
+          <a href="buy.html#faq">よくあるご質問</a>
+          <a href="privacy.html">プライバシーポリシー</a>
+          <a href="about.html#company">古物営業法に基づく表記</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© August Shop / SGN Co.,Ltd. All Rights Reserved.</p>
+      <p class="footer__mock">古物商許可証　第452740013242号／神奈川県公安委員会</p>
+    </div>
+  </div>
+</footer>
+
+<div class="actionbar">
+  <a href="#line" class="actionbar__btn actionbar__btn--line">
+    <span class="actionbar__icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 5.66 2 10.16c0 4.03 3.57 7.4 8.39 8.04.33.07.77.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.02.89.56 1.1-.46 5.9-3.48 8.05-5.95C21.5 13.5 22 11.9 22 10.16 22 5.66 17.5 2 12 2ZM7.5 12.9H5.62a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 1 0v3.3H7.5a.5.5 0 0 1 0 1Zm2.05-.5a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 1 0v3.8Zm4.2 0a.5.5 0 0 1-.9.3l-1.93-2.62v2.32a.5.5 0 0 1-1 0V8.6a.5.5 0 0 1 .9-.3l1.93 2.63V8.6a.5.5 0 0 1 1 0v3.8Zm3.13-2.4a.5.5 0 0 1 0 1h-1.38v.9h1.38a.5.5 0 0 1 0 1h-1.88a.5.5 0 0 1-.5-.5V8.6a.5.5 0 0 1 .5-.5h1.88a.5.5 0 0 1 0 1h-1.38v.9h1.38Z"/></svg></span>
+    <span class="actionbar__label"><b>LINE査定</b><small>写真を送るだけ</small></span>
+  </a>
+  <a href="form.html" class="actionbar__btn actionbar__btn--form">
+    <span class="actionbar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 3.8h9.2L19 8.6V20.2H5z"/><path d="M14 3.8v5h5"/><path d="M8.2 12.6h7.6M8.2 16h5"/></svg></span>
+    <span class="actionbar__label"><b>買取フォーム</b><small>HP内で完結</small></span>
+  </a>
+  <a href="tel:046-259-6189" class="actionbar__btn actionbar__btn--tel">
+    <span class="actionbar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M6.4 3.8h3l1.5 3.7-2 1.4a12 12 0 0 0 5.2 5.2l1.4-2 3.7 1.5v3a1.6 1.6 0 0 1-1.8 1.6C10.9 17.5 6.5 13.1 4.8 5.6A1.6 1.6 0 0 1 6.4 3.8Z"/></svg></span>
+    <span class="actionbar__label"><b>お電話</b><small>046-259-6189</small></span>
+  </a>
+</div>
+
+<script src="assets/js/main.js" defer></script>
+<!-- /@common:foot -->
+</body>
+</html>

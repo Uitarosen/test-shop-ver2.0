@@ -1,0 +1,46 @@
+================================================================
+ NOTICE — 同梱フォントについて
+================================================================
+
+本パッケージには、以下の3書体の Web フォント（woff2 サブセット）を
+assets/fonts/ 配下に同梱しています。
+
+----------------------------------------------------------------
+1. Jost
+   用途 : 英数字（見出し・ラベル・数値）
+   入手 : Google Fonts  https://fonts.google.com/specimen/Jost
+   license: assets/fonts/licenses/Jost-OFL.txt
+
+2. Shippori Mincho（しっぽり明朝）
+   用途 : 和文見出し
+   入手 : Google Fonts  https://fonts.google.com/specimen/Shippori+Mincho
+   license: assets/fonts/licenses/Shippori-Mincho-OFL.txt
+
+3. Zen Kaku Gothic New
+   用途 : 和文本文
+   入手 : Google Fonts  https://fonts.google.com/specimen/Zen+Kaku+Gothic+New
+   license: assets/fonts/licenses/Zen-Kaku-Gothic-New-OFL.txt
+----------------------------------------------------------------
+
+ライセンス
+  3書体はいずれも SIL Open Font License 1.1 (OFL-1.1) で提供されています。
+  商用利用・Web への埋め込み・再配布が可能ですが、再配布の際は
+  各 OFL.txt を必ず一緒に配布してください（assets/fonts/licenses/ に同梱済み）。
+  フォントファイル単体を有償で販売することはできません。
+
+ファイルについて
+  assets/fonts/*.woff2 は、Google Fonts が配信している
+  unicode-range 分割済みのサブセットファイルをそのまま取得したものです。
+  和文書体は文字数が多いため 1 書体あたり 100 以上のファイルに分かれていますが、
+  ブラウザは表示に必要なサブセットのみを読み込むため、実際の転送量はごく少量です。
+
+  対応表（@font-face と unicode-range）は assets/css/fonts.css に記述されています。
+  このファイルは Google Fonts の CSS 出力の URL を
+  ローカル相対パス（../fonts/…）へ書き換えたものです。
+
+================================================================
+ 写真素材について
+================================================================
+
+assets/img/*.jpg は、本モック用に生成した画像（プレースホルダー）です。
+実際の公開時は、実際に撮影した商品・店舗の写真に差し替えてください。
